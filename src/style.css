@@ -1,0 +1,33 @@
+h1, p {
+    font-family: Lato;
+  }
+
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.container {
+    width: 340px
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    background-color: #fff;
+    color: #444;
+  }
+
+.box {
+    border: 1px solid;
+    border-radius: 25px;
+  }
